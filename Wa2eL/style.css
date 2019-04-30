@@ -7,6 +7,9 @@
     margin: 0 auto;
     background-color:#041229;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
   }
   
   h1{
@@ -62,4 +65,55 @@
     -ms-align-items: center;
     align-items: center;
     padding: 10px;
+    width: 637px
   }
+  #submit{
+    width: 200px;
+    align-self: center;
+  }
+ 
+.navbar {
+  overflow: hidden;
+  background-color:ghostwhite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: ghostwhite;
+  color: darkslateblue;
+  text-align: center;
+  height: 50px;
+}
+.footer p {
+  float: left;
+  display: block;
+  color: darkslateblue;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+#temp{
+  color:ghostwhite;
+}
