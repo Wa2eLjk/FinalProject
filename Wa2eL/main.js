@@ -40,7 +40,7 @@ $.ajax({
 var WeatherTemp ='';
 $.ajax({
     method:'GET',
-    url:'http://api.openweathermap.org/data/2.5/weather?q=Riyadh&units=metric&APPID=0a62dca5b77aed56d8a14642d633ed24',
+    url:'https://api.openweathermap.org/data/2.5/weather?q=Riyadh&units=metric&APPID=0a62dca5b77aed56d8a14642d633ed24',
     success: function(resultWeather){
          WeatherTemp = resultWeather.main.temp
         console.log(WeatherTemp)
